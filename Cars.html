@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fastest Cars Rating</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      overflow: hidden;
+    }
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #575757;
+    }
+    h1 {
+      margin: 0;
+    }
+    .container {
+      padding: 20px;
+    }
+    .car {
+      margin: 15px 0;
+    }
+    .label {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .bar {
+      background: #ddd;
+      height: 25px;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .speed {
+      height: 100%;
+      text-align: right;
+      padding-right: 5px;
+      color: white;
+      line-height: 25px;
+      border-radius: 5px;
+    }
+    /* Different car colors */
+    .bugatti { width: 100%; background: #cc0000; }
+    .gtr { width: 65%; background: #0077cc; }
+    .koenigsegg { width: 98%; background: #9900cc; }
+    .agera { width: 95%; background: #009966; }
+    .venom { width: 99%; background: #ff6600; }
+    .supra { width: 51%; background: #00aa55; }
+    .mustang { width: 51%; background: #ff9900; }
+    .lambo { width: 79%; background: #4444ff; }
+    .ferrari { width: 82%; background: #aa0000; }
+    .mclaren { width: 97%; background: #008888; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fastest Cars Rating</h1>
+    <p>Top 10 Fastest Cars Compared by Speed</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Cars</a>
+    <a href="#">Rankings</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="car">
+      <div class="label">Bugatti Chiron Super Sport 300+ (304 mph)</div>
+      <div class="bar"><div class="speed bugatti">304 mph</div></div>
+    </div>
+
+    <div class="car">
+      <div class="label">Koenigsegg Jesko Absolut (300 mph)</div>
+      <div class="bar"><div class="speed koenigsegg">300 mph</div></div>
+    </div>
+
+    <div class="car">
+      <div class="label">Hennessey Venom F5 (301 mph)</div>
+      <div class="bar"><div class="speed venom">301 mph</div></div>
+    </div>
+
+    <div class="car">
+      <div class="label">McLaren Speedtail (250 mph)</div>
+      <div class="bar"><div class="speed mclaren">250 mph</div></div>
+    </div>
+
+    <div class="car">
+      <div class="label">Koenigsegg Agera RS (277 mph)</div>
+      <div class="bar"><div class="speed agera">277 mph</div></div>
+    </div>
+
+    <div class="car">
+      <div class="label">Ferrari LaFerrari (211 mph)</div>
+      <div class="bar"><div class="speed ferrari">211 mph</div></div>
+    </div>
+
+    <div class="car">
+      <div class="label">Lamborghini Aventador SVJ (217 mph)</div>
+      <div class="bar"><div class="speed lambo">217 mph</div></div>
+    </div>
+
+    <div class="car">
+      <div class="label">Nissan GT-R (196 mph)</div>
+      <div class="bar"><div class="speed gtr">196 mph</div></div>
+    </div>
+
+    <div class="car">
+      <div class="label">Toyota Supra (155 mph)</div>
+      <div class="bar"><div class="speed supra">155 mph</div></div>
+    </div>
+
+    <div class="car">
+      <div class="label">Ford Mustang GT (155 mph)</div>
+      <div class="bar"><div class="speed mustang">155 mph</div></div>
+    </div>
+  </div>
+</body>
+</html>
