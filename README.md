@@ -1,4 +1,4 @@
-# SimpleHTMLWebsite_Fastest_cars_rating
+# Cars
 
 A single-page HTML/CSS website that visualizes the top 10 fastest production cars as a horizontal bar chart, built entirely with vanilla CSS (no JavaScript or chart libraries).
 
